@@ -1,13 +1,12 @@
-let array1 = [1,2,3];
-let array2 = [4,5,6];
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let combined8 = [];
 
-let nr8combined = [];
-
-for (var i = 0; i < array1.length; i++) {
-    for (var j = 0; j < array2.length; j++) {
-        if (array1[i] + array[j] == 8) {
-            nr8combined.push([array1[i], array[j]]);
-        }
+for (i = 0; i < arr1.length; i++) {
+  for (j = 0; j < arr2.length; j++) {
+    if(arr1[i] + arr2[j] == 8) { 
+      combined8.push([arr1[i], arr2[j]]);
     }
+  }
 }
-console.log(nr8combined);
+console.log(combined8);
